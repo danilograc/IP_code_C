@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+int main() {
+    float valor_u1, valor_u2, total;
+    int cod1, cod2, quant1, quant2;
+    scanf("%d %d %f", &cod1, &quant1, &valor_u1);
+    scanf("%d %d %f", &cod2, &quant2, &valor_u2);
+    total = (valor_u1*quant1)+(valor_u2*quant2);
+    printf("VALOR A PAGAR: R$ %.2f", total);
+
+    return 0;
+}
