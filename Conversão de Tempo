@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+int main(){
+    int hora, min, sec,total;
+
+    scanf("%d",&total);
+    hora=total/3600;
+    min=(total%3600)/60;
+    sec=((total%3600)%60);
+    printf("%d:%d:%d\n",hora, min, sec);
+
+    return 0;
+}
