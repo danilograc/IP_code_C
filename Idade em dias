@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+int main(){
+    int ano, mes, dia, total;
+    
+    scanf("%d",&total);
+    ano=total/365;
+    mes=(total%365)/30;
+    dia=((total%365)%30);
+    printf("%d ano(s)\n%d mes(es)\n%d dia(s)\n",ano, mes, dia);
+
+    return 0;
+}
